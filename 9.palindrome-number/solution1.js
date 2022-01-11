@@ -6,11 +6,12 @@ const isPalindrome = (x) => {
     let parseNum = parseInt(newNum)
     let originalNum = x
 
-    return parseNum === x
+    return parseNum === originalNum
 
 
 
 };
+
 
 
 console.log(isPalindrome(-232))
